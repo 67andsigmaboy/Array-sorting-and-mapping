@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>i change the dashboard of codingal</title>
+    </head>
+
+    <body>
+        <h1>because the dashbored is looks so boreing</h1>
+        <p>javaScript Array sort()</p>
+        <button onclick="asending()">ascending order</button>
+        <button onclick="desending()">descending order</button>
+        <p id="demo"></p>
+        <script>
+            var points =[67,7,89,25,23]
+            document.getElementById("demo").innerHTML = points;
+            function asending(){
+                points.sort(function(a,b){return a - b;
+                    
+                }                );
+                document.getElementById("demo").innerHTML = points;
+                         }
+                         function desending(){
+                            points.sort(function(a,b){return b - a;
+                                
+                            }                );
+                            document.getElementById("demo").innerHTML = points;
+                                     }
+        </script>
+    </body>
+</html>
